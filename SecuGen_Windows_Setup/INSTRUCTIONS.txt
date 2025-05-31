@@ -1,0 +1,33 @@
+SecuGen HU20-A Setup Instructions for Windows PC
+===============================================
+
+QUICK START:
+1. Copy this entire folder to your Windows PC
+2. Right-click INSTALL.bat and select "Run as administrator"
+3. Follow the on-screen instructions
+4. Connect your SecuGen HU20-A Hamster Pro 20 to USB
+5. Start the service using the desktop shortcut
+
+FILES INCLUDED:
+- INSTALL.bat - One-click installer (START HERE)
+- auto_setup_windows.bat - Batch installer
+- auto_setup_windows.ps1 - PowerShell installer
+- windows_fingerprint_service.py - Main service
+- test_integration.py - Test script
+- verify_setup.bat - Verification script
+- AUTOMATED_SETUP_GUIDE.md - Detailed guide
+
+REQUIREMENTS:
+- Windows 10/11
+- Administrator privileges
+- SecuGen HU20-A Hamster Pro 20 USB scanner
+- Internet connection (for Python download if needed)
+
+SUPPORT:
+- Run verify_setup.bat to check installation
+- Run test_integration.py to test functionality
+- See AUTOMATED_SETUP_GUIDE.md for troubleshooting
+
+After setup, the service will be available at:
+- Local: http://localhost:5001
+- Network: http://[YOUR_WINDOWS_IP]:5001
