@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wix": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--registry",
+        "https://registry.npmjs.org",
+        "@wix/mcp"
+      ]
+    }
+  }
+}

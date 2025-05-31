@@ -1,0 +1,4 @@
+1. Download the FDx SDK Pro for Windows from: https://secugen.com/download/
+2. Install the drivers and SDK.
+3. Use sgfplib.dll and access it from Python using ctypes or from a C++/C# app.
+4. Capture the fingerprint, convert it into a usable string, and send to backend.
